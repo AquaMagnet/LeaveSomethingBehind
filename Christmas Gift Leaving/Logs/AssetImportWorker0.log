@@ -15,11 +15,11 @@ C:/Users/JUSTINE/Desktop/Game Development All Files and Notes/Game Dev/GJLJam/Le
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60785
+65323
 Successfully changed project path to: C:/Users/JUSTINE/Desktop/Game Development All Files and Notes/Game Dev/GJLJam/LeaveSomethingBehind/Christmas Gift Leaving
 C:/Users/JUSTINE/Desktop/Game Development All Files and Notes/Game Dev/GJLJam/LeaveSomethingBehind/Christmas Gift Leaving
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 17.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 17.96 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,24 +35,24 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002481 seconds.
+Registered in 0.002629 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 17.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 19.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
+- Completed reload, in  0.912 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000767 seconds.
+Registered in 0.000789 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -62,33 +62,505 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.573 seconds
+- Completed reload, in  0.579 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.3 MB.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.4 MB.
 System memory in use after: 57.4 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 1.547800 ms (FindLiveObjects: 0.113200 ms CreateObjectMapping: 0.028500 ms MarkObjects: 1.341500 ms  DeleteObjects: 0.063900 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 1.475300 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.029100 ms MarkObjects: 1.236200 ms  DeleteObjects: 0.066700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777e927d0b238e2cde0f6869e17df74c') in 0.009839 seconds
-  Import took 0.011449 seconds .
+  path: Assets/EditedandAdditionFBX
+  artifactKey: Guid(f802c9973c3666a40bc01fabb31d7dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX using Guid(f802c9973c3666a40bc01fabb31d7dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ad1dedf7a5fd53a029757e93654395') in 0.004647 seconds
+  Import took 0.006348 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.920462 seconds.
-  path: Assets/Scenes/Sandbox.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sandbox.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b01c6be9dbb462b8d9dddcec529eeb') in 0.002829 seconds
-  Import took 0.004521 seconds .
+  Time since last request: 3.274731 seconds.
+  path: Assets/EditedandAdditionFBX/017 Santa_claus2.fbx
+  artifactKey: Guid(de55a08d9d4e4264fb6bc58780a97a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/017 Santa_claus2.fbx using Guid(de55a08d9d4e4264fb6bc58780a97a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957064beaaca3f3b3036a7f08e742c95') in 0.139415 seconds
+  Import took 0.141339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.650430 seconds.
+  path: Assets/EditedandAdditionFBX/017 Santa_claus2.fbx
+  artifactKey: Guid(de55a08d9d4e4264fb6bc58780a97a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/017 Santa_claus2.fbx using Guid(de55a08d9d4e4264fb6bc58780a97a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94215bbf79832bb56e62581089c3439f') in 0.064131 seconds
+  Import took 0.066039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.621570 seconds.
+  path: Assets/Low Poly Christmas Pack Free/FBX
+  artifactKey: Guid(2d63337328e114d788e360d5a3437a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/FBX using Guid(2d63337328e114d788e360d5a3437a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc75dff1eca50c1c644359b0373bf51a') in 0.002688 seconds
+  Import took 0.004506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 154.818669 seconds.
+  path: Assets/Low Poly Christmas Pack Free
+  artifactKey: Guid(846c53bce6d7e00479244b76de5fae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free using Guid(846c53bce6d7e00479244b76de5fae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4700e4e8906517fa77b36b23f8852b82') in 0.002608 seconds
+  Import took 0.004449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.179704 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs
+  artifactKey: Guid(47cd311ad1bba4661964291d770a0719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs using Guid(47cd311ad1bba4661964291d770a0719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100c4a68f0858142c2d86735adddc604') in 0.002706 seconds
+  Import took 0.004415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816038 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/017 Santa_claus.prefab
+  artifactKey: Guid(9b4ecdcf9d3c94d10a3f3f3b8a1e4e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/017 Santa_claus.prefab using Guid(9b4ecdcf9d3c94d10a3f3f3b8a1e4e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4551582be95cb381e2b68b9bb676839') in 0.013614 seconds
+  Import took 0.016029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005624 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/067 Santa_claus.prefab
+  artifactKey: Guid(a291e46272f53475ebc1e8957114f661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/067 Santa_claus.prefab using Guid(a291e46272f53475ebc1e8957114f661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797e174a6d7725d377b5c75b1aa089be') in 0.019425 seconds
+  Import took 0.021412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/070 Buggy.prefab
+  artifactKey: Guid(3d9da2de73665478192836be2535ac9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/070 Buggy.prefab using Guid(3d9da2de73665478192836be2535ac9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a958c4d3a91a0c116e1ff47c973886b') in 0.013672 seconds
+  Import took 0.015666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/071 Buggy.prefab
+  artifactKey: Guid(967ec538915a14cd1a7605479cff23f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/071 Buggy.prefab using Guid(967ec538915a14cd1a7605479cff23f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912a74564395ba5e76d186d4d9a9cfae') in 0.013453 seconds
+  Import took 0.015389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/068 Santa_claus.prefab
+  artifactKey: Guid(59dcd121b0ec94cc493bd317b89a9ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/068 Santa_claus.prefab using Guid(59dcd121b0ec94cc493bd317b89a9ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9792bef1b33d72fb75c823f094e4eb03') in 0.009565 seconds
+  Import took 0.011562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/069 Rabbir.prefab
+  artifactKey: Guid(8b8e2c8ce98474fc0a3018fc68cc722d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/069 Rabbir.prefab using Guid(8b8e2c8ce98474fc0a3018fc68cc722d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c5ccf8ecc3ef20361561980c584717') in 0.011729 seconds
+  Import took 0.013691 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000700 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.584 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.9 MB.
+System memory in use after: 61.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1603.
+Total: 1.492700 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.028100 ms MarkObjects: 1.261600 ms  DeleteObjects: 0.045500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.408703 seconds.
+  path: Assets/EditedandAdditionFBX/santa.fbx
+  artifactKey: Guid(5751a4a7a0b0a7243a63234e5407e98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/santa.fbx using Guid(5751a4a7a0b0a7243a63234e5407e98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf30219e2d85082f16c877cfa44411a0') in 0.106832 seconds
+  Import took 0.108717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000894 seconds.
+  path: Assets/EditedandAdditionFBX/santa.fbx
+  artifactKey: Guid(5751a4a7a0b0a7243a63234e5407e98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/santa.fbx using Guid(5751a4a7a0b0a7243a63234e5407e98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf30219e2d85082f16c877cfa44411a0') in 0.064612 seconds
+  Import took 0.066449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.891374 seconds.
+  path: Assets/EditedandAdditionFBX/santa.fbx
+  artifactKey: Guid(5751a4a7a0b0a7243a63234e5407e98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/santa.fbx using Guid(5751a4a7a0b0a7243a63234e5407e98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1606c4be3a508813a260dec27cd89598') in 0.064384 seconds
+  Import took 0.066202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.462736 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/072 Buggy.prefab
+  artifactKey: Guid(3d1f849d3c91b4d17ad1405312233331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/072 Buggy.prefab using Guid(3d1f849d3c91b4d17ad1405312233331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7142fe774760dfa007d3def181e7e06') in 0.011212 seconds
+  Import took 0.013026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/083 Chicken.prefab
+  artifactKey: Guid(d19d3439c13d84a398d06dce4fd33503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/083 Chicken.prefab using Guid(d19d3439c13d84a398d06dce4fd33503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f35eaeecd7b9558e74c14ec21b0141c') in 0.009711 seconds
+  Import took 0.011427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/085 Duck.prefab
+  artifactKey: Guid(9148e27f4aa7a4eb8aa70f2971c65db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/085 Duck.prefab using Guid(9148e27f4aa7a4eb8aa70f2971c65db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7d9baefbf15de501b971073920d88b') in 0.013518 seconds
+  Import took 0.015277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/079 House.prefab
+  artifactKey: Guid(d4e6f0d22c2134d1db0f29932d980f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/079 House.prefab using Guid(d4e6f0d22c2134d1db0f29932d980f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db128dd1d33c693ff36974f071a80637') in 0.015534 seconds
+  Import took 0.017350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/080 Caw.prefab
+  artifactKey: Guid(d29090626e95b4b52b6b1d00ac9c1408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/080 Caw.prefab using Guid(d29090626e95b4b52b6b1d00ac9c1408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffb8c4fc66c228ba1b3bd3fac2e713c') in 0.019905 seconds
+  Import took 0.021623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/077 Xmas_Girl.prefab
+  artifactKey: Guid(9424f2aca5e45452296b870825f3184b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/077 Xmas_Girl.prefab using Guid(9424f2aca5e45452296b870825f3184b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c1c4031c6ae799f9c38e31898bee9e') in 0.017261 seconds
+  Import took 0.018962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/074 Gift_Boxes.prefab
+  artifactKey: Guid(df20497cc0b824685b698fef1a920408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/074 Gift_Boxes.prefab using Guid(df20497cc0b824685b698fef1a920408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db740f5fdeb197cff85838521d69e4b') in 0.017301 seconds
+  Import took 0.018907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/081 Sheep.prefab
+  artifactKey: Guid(b82b4b3c861f5404bad9fd5e0cee0be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/081 Sheep.prefab using Guid(b82b4b3c861f5404bad9fd5e0cee0be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905d14a569e85d5a4bd4a22d0ddb087c') in 0.017344 seconds
+  Import took 0.019235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/073 Xmas_Tree.prefab
+  artifactKey: Guid(87e1a9afd67494fc4a54238433641d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/073 Xmas_Tree.prefab using Guid(87e1a9afd67494fc4a54238433641d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b80795698299af469759be09660925e') in 0.017154 seconds
+  Import took 0.018763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/084 Hen.prefab
+  artifactKey: Guid(01612f0f2b86b488cb860cef7526c30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/084 Hen.prefab using Guid(01612f0f2b86b488cb860cef7526c30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993256de6854807c75733776fae5528b') in 0.019217 seconds
+  Import took 0.021252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/073 Xmas_Tree.prefab
+  artifactKey: Guid(87e1a9afd67494fc4a54238433641d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/073 Xmas_Tree.prefab using Guid(87e1a9afd67494fc4a54238433641d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b80795698299af469759be09660925e') in 0.017607 seconds
+  Import took 0.019457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/082 Chicken.prefab
+  artifactKey: Guid(b3a732e69712f488fb09c421d0a26012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/082 Chicken.prefab using Guid(b3a732e69712f488fb09c421d0a26012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7e9ff2c3374ae5ee6d258299733efa') in 0.017828 seconds
+  Import took 0.019662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/076 Xmas_Boy.prefab
+  artifactKey: Guid(15ee8dca5c206414182e67c9a3ad9daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/076 Xmas_Boy.prefab using Guid(15ee8dca5c206414182e67c9a3ad9daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4499defe5e01ddf86f6e95b289268f44') in 0.012344 seconds
+  Import took 0.014088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/075 Deer.prefab
+  artifactKey: Guid(26ae0eab97133498295a3d528f4b0a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/075 Deer.prefab using Guid(26ae0eab97133498295a3d528f4b0a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ef6157179afe0d7881f74311df1ed6') in 0.018961 seconds
+  Import took 0.020879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Low Poly Christmas Pack Free/Prefabs/078 House.prefab
+  artifactKey: Guid(d89a9984a4fbe4a15b0aeca3cc8b4104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Christmas Pack Free/Prefabs/078 House.prefab using Guid(d89a9984a4fbe4a15b0aeca3cc8b4104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77c57acc31b05953bf532a926ac8c47') in 0.010022 seconds
+  Import took 0.011868 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000789 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.543 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1607.
+Total: 2.082600 ms (FindLiveObjects: 0.123300 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.884500 ms  DeleteObjects: 0.044300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.966195 seconds.
+  path: Assets/EditedandAdditionFBX/santa.prefab
+  artifactKey: Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/santa.prefab using Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7071c723990c47a8a4524efcbfd450') in 0.043472 seconds
+  Import took 0.045438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.513440 seconds.
+  path: Assets/EditedandAdditionFBX/santa_rig.prefab
+  artifactKey: Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/santa_rig.prefab using Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1e7f6180259332d064c0d702159c61') in 0.009000 seconds
+  Import took 0.011033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005449 seconds.
+  path: Assets/EditedandAdditionFBX/santa_rig.prefab
+  artifactKey: Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/santa_rig.prefab using Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1e7f6180259332d064c0d702159c61') in 0.014893 seconds
+  Import took 0.017116 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.600 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1611.
+Total: 2.006600 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.752200 ms  DeleteObjects: 0.051700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000879 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.547 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1614.
+Total: 1.477400 ms (FindLiveObjects: 0.134600 ms CreateObjectMapping: 0.023900 ms MarkObjects: 1.274600 ms  DeleteObjects: 0.043300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.278287 seconds.
+  path: Assets/EditedandAdditionFBX/santa_rig.prefab
+  artifactKey: Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/santa_rig.prefab using Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7e5ba7edc1e26ec63437323f884715') in 0.041150 seconds
+  Import took 0.043096 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.640 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1618.
+Total: 1.409400 ms (FindLiveObjects: 0.145300 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.187400 ms  DeleteObjects: 0.044500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.537 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 1.678600 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.399000 ms  DeleteObjects: 0.040000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000971 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.585 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.1 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
+Total: 1.749700 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.497400 ms  DeleteObjects: 0.068700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.220762 seconds.
+  path: Assets/EditedandAdditionFBX/santa_rig.prefab
+  artifactKey: Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/santa_rig.prefab using Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26499864ec389b26d7732ef725ad239') in 0.041798 seconds
+  Import took 0.043766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.398042 seconds.
+  path: Assets/EditedandAdditionFBX/santa_rig.prefab
+  artifactKey: Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/santa_rig.prefab using Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fa8ce7587aff71200726cd6e984bee') in 0.008226 seconds
+  Import took 0.010121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.605839 seconds.
+  path: Assets/EditedandAdditionFBX/santa_rig.prefab
+  artifactKey: Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/santa_rig.prefab using Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b967edfdd80808d98e501ab87f15beaa') in 0.008878 seconds
+  Import took 0.011114 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000738 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.560 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.2 MB.
+System memory in use after: 61.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1628.
+Total: 1.334000 ms (FindLiveObjects: 0.135600 ms CreateObjectMapping: 0.022200 ms MarkObjects: 1.133300 ms  DeleteObjects: 0.042100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
