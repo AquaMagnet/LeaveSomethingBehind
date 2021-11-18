@@ -15,11 +15,11 @@ C:/Users/JUSTINE/Desktop/Game Development All Files and Notes/Game Dev/GJLJam/Le
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65028
+62553
 Successfully changed project path to: C:/Users/JUSTINE/Desktop/Game Development All Files and Notes/Game Dev/GJLJam/LeaveSomethingBehind/Christmas Gift Leaving
 C:/Users/JUSTINE/Desktop/Game Development All Files and Notes/Game Dev/GJLJam/LeaveSomethingBehind/Christmas Gift Leaving
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,628 +35,748 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003285 seconds.
+Registered in 0.003382 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 25.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 29.12 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.292 seconds
+- Completed reload, in  1.320 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001031 seconds.
+Registered in 0.001331 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.793 seconds
+- Completed reload, in  0.924 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.4 MB.
-System memory in use after: 57.4 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
-Total: 1.961200 ms (FindLiveObjects: 0.148100 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.694000 ms  DeleteObjects: 0.089300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Low Poly Christmas Pack Free/FBX/001 Snowman.fbx
-  artifactKey: Guid(0f014151f33ae4ca1801bd402cacffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/001 Snowman.fbx using Guid(0f014151f33ae4ca1801bd402cacffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cd7aa092cb4b6717ff7fa20d87acab') in 0.173242 seconds
-  Import took 0.175862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.735800 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/002 Candle_Light.fbx
-  artifactKey: Guid(87ed9a0d2b5084a3f98ebf880fd9a010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/002 Candle_Light.fbx using Guid(87ed9a0d2b5084a3f98ebf880fd9a010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2940be7cee16d1363bee2b9540b38e69') in 0.035521 seconds
-  Import took 0.039143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027853 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/002 Candle_Light.fbx
-  artifactKey: Guid(87ed9a0d2b5084a3f98ebf880fd9a010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/002 Candle_Light.fbx using Guid(87ed9a0d2b5084a3f98ebf880fd9a010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2940be7cee16d1363bee2b9540b38e69') in 0.031257 seconds
-  Import took 0.034444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.742054 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/003 Candle.fbx
-  artifactKey: Guid(5b4da7e07210a4ca0bbcf2cd74248616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/003 Candle.fbx using Guid(5b4da7e07210a4ca0bbcf2cd74248616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbe8a40fd1aee3bd4522639abdc55a4') in 0.070831 seconds
-  Import took 0.074211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.817099 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/004 Gift_Box.fbx
-  artifactKey: Guid(d8613adc92a674fc599435e771ea661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/004 Gift_Box.fbx using Guid(d8613adc92a674fc599435e771ea661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a48d948ae2448aa183b965377addf1') in 0.045100 seconds
-  Import took 0.048546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013827 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/004 Gift_Box.fbx
-  artifactKey: Guid(d8613adc92a674fc599435e771ea661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/004 Gift_Box.fbx using Guid(d8613adc92a674fc599435e771ea661d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a48d948ae2448aa183b965377addf1') in 0.038238 seconds
-  Import took 0.042268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.038647 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/005 Candy_Stick.fbx
-  artifactKey: Guid(af8d3cc1b7b704fc099b0210a0fa4a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/005 Candy_Stick.fbx using Guid(af8d3cc1b7b704fc099b0210a0fa4a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4dd4b120f4471c0faf643875f63223') in 0.043887 seconds
-  Import took 0.047867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016758 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/005 Candy_Stick.fbx
-  artifactKey: Guid(af8d3cc1b7b704fc099b0210a0fa4a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/005 Candy_Stick.fbx using Guid(af8d3cc1b7b704fc099b0210a0fa4a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4dd4b120f4471c0faf643875f63223') in 0.045997 seconds
-  Import took 0.049707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.611870 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/006 Santa_Claus_Hat.fbx
-  artifactKey: Guid(a6618e369c96a4bfeb3e1ca6614a0d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/006 Santa_Claus_Hat.fbx using Guid(a6618e369c96a4bfeb3e1ca6614a0d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc89225b8379df513b3060f3bc0a9539') in 0.043305 seconds
-  Import took 0.047402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017474 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/006 Santa_Claus_Hat.fbx
-  artifactKey: Guid(a6618e369c96a4bfeb3e1ca6614a0d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/006 Santa_Claus_Hat.fbx using Guid(a6618e369c96a4bfeb3e1ca6614a0d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc89225b8379df513b3060f3bc0a9539') in 0.040625 seconds
-  Import took 0.045292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.832282 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/007 Santa_Claus_Hat.fbx
-  artifactKey: Guid(9a8a0504e95704f838d26787e97848f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/007 Santa_Claus_Hat.fbx using Guid(9a8a0504e95704f838d26787e97848f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f6e23d73cbd2ba540856f13bcf2d52') in 0.049924 seconds
-  Import took 0.053310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.203646 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/008 Reindeer.fbx
-  artifactKey: Guid(92920120a441b4ca08b616a192292ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/008 Reindeer.fbx using Guid(92920120a441b4ca08b616a192292ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf46909114e3aaf10461e3b1c7ab3fe6') in 0.084641 seconds
-  Import took 0.088420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.934914 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/009 Santa_gift_bag.fbx
-  artifactKey: Guid(3e031175667bb4d20991d949e62ea836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/009 Santa_gift_bag.fbx using Guid(3e031175667bb4d20991d949e62ea836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fb7a42aec2c9e887e28f85ee21e6dc') in 0.043595 seconds
-  Import took 0.046841 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.439694 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/010 Christmas_Socks.fbx
-  artifactKey: Guid(63404f5fa27cc49d4a4249ee39a3e3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/010 Christmas_Socks.fbx using Guid(63404f5fa27cc49d4a4249ee39a3e3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f844bd35f486af0ccd48b4bdb954944b') in 0.038672 seconds
-  Import took 0.042160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022394 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/010 Christmas_Socks.fbx
-  artifactKey: Guid(63404f5fa27cc49d4a4249ee39a3e3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/010 Christmas_Socks.fbx using Guid(63404f5fa27cc49d4a4249ee39a3e3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f844bd35f486af0ccd48b4bdb954944b') in 0.036298 seconds
-  Import took 0.039650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.053080 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/011 Gift_Box.fbx
-  artifactKey: Guid(de083115bd03c4871b51d44540d1fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/011 Gift_Box.fbx using Guid(de083115bd03c4871b51d44540d1fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f816ec73e99da8f4c6d4986b2cdac1a4') in 0.041061 seconds
-  Import took 0.044472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021815 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/011 Gift_Box.fbx
-  artifactKey: Guid(de083115bd03c4871b51d44540d1fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/011 Gift_Box.fbx using Guid(de083115bd03c4871b51d44540d1fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f816ec73e99da8f4c6d4986b2cdac1a4') in 0.037667 seconds
-  Import took 0.041097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.932894 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/012 009 Santa_gift_bag.fbx
-  artifactKey: Guid(b23a40c835c2341f58357c91c7cc4ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/012 009 Santa_gift_bag.fbx using Guid(b23a40c835c2341f58357c91c7cc4ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1774475e9692c1a7b05f1989ba558f77') in 0.055199 seconds
-  Import took 0.058821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005406 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/012 009 Santa_gift_bag.fbx
-  artifactKey: Guid(b23a40c835c2341f58357c91c7cc4ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/012 009 Santa_gift_bag.fbx using Guid(b23a40c835c2341f58357c91c7cc4ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1774475e9692c1a7b05f1989ba558f77') in 0.040878 seconds
-  Import took 0.044203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.330604 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/013 Hand_gloves.fbx
-  artifactKey: Guid(ae6c4a1362fcd4e2e8ab73fd56f6ffac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/013 Hand_gloves.fbx using Guid(ae6c4a1362fcd4e2e8ab73fd56f6ffac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e461f483a75796a376861cfde56f49') in 0.047992 seconds
-  Import took 0.051345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012190 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/013 Hand_gloves.fbx
-  artifactKey: Guid(ae6c4a1362fcd4e2e8ab73fd56f6ffac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/013 Hand_gloves.fbx using Guid(ae6c4a1362fcd4e2e8ab73fd56f6ffac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e461f483a75796a376861cfde56f49') in 0.045187 seconds
-  Import took 0.048356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.269614 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/014 Gift_Box.fbx
-  artifactKey: Guid(46d48d452147249dcadc3d1763fc2f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/014 Gift_Box.fbx using Guid(46d48d452147249dcadc3d1763fc2f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebd4611170b088995245d0fd335ae77') in 0.036195 seconds
-  Import took 0.039535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022805 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/014 Gift_Box.fbx
-  artifactKey: Guid(46d48d452147249dcadc3d1763fc2f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/014 Gift_Box.fbx using Guid(46d48d452147249dcadc3d1763fc2f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebd4611170b088995245d0fd335ae77') in 0.035634 seconds
-  Import took 0.038692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.466391 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/015 Garland.fbx
-  artifactKey: Guid(5b1b57193f6544575b41c39c29d3d0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/015 Garland.fbx using Guid(5b1b57193f6544575b41c39c29d3d0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d9e8ffb8732fb12da3d298f8ebafee') in 0.058395 seconds
-  Import took 0.061687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.641829 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/016 Xmas_Tree.fbx
-  artifactKey: Guid(63cb5028760324f5f8fdccbe150c122d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/016 Xmas_Tree.fbx using Guid(63cb5028760324f5f8fdccbe150c122d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ead58cdac59c67f2c1ebb6ddbfe2214') in 0.062915 seconds
-  Import took 0.066618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.589024 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/018 Buggy.fbx
-  artifactKey: Guid(412caa4ac07e342858a3b7d5ef06de8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/018 Buggy.fbx using Guid(412caa4ac07e342858a3b7d5ef06de8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72be911e552f60bf366c415456239436') in 0.045829 seconds
-  Import took 0.049368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.284147 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/019 Candle.fbx
-  artifactKey: Guid(a6d92a839641846379f6e839bcfe410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/019 Candle.fbx using Guid(a6d92a839641846379f6e839bcfe410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a948c6902b272f1ed9137714c54f561d') in 0.050127 seconds
-  Import took 0.053572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.691528 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/020 Tea_Cup.fbx
-  artifactKey: Guid(63e97d79bb5a74ae19da115f0666b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/020 Tea_Cup.fbx using Guid(63e97d79bb5a74ae19da115f0666b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd698824e0536a4816ffd5203dc76cc67') in 0.032951 seconds
-  Import took 0.036328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001646 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/020 Tea_Cup.fbx
-  artifactKey: Guid(63e97d79bb5a74ae19da115f0666b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/020 Tea_Cup.fbx using Guid(63e97d79bb5a74ae19da115f0666b60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd698824e0536a4816ffd5203dc76cc67') in 0.039529 seconds
-  Import took 0.042446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.892414 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/021 Teapot.fbx
-  artifactKey: Guid(9275d63a2ea1d4409998c224e0f9b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/021 Teapot.fbx using Guid(9275d63a2ea1d4409998c224e0f9b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f153dfbd319897cb60a32c0c63a555') in 0.031428 seconds
-  Import took 0.034708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033120 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/021 Teapot.fbx
-  artifactKey: Guid(9275d63a2ea1d4409998c224e0f9b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/021 Teapot.fbx using Guid(9275d63a2ea1d4409998c224e0f9b2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f153dfbd319897cb60a32c0c63a555') in 0.031987 seconds
-  Import took 0.035298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.735619 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/022 Chicken.fbx
-  artifactKey: Guid(6a9255af3ca374d6c89c0b3b19fc9504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/022 Chicken.fbx using Guid(6a9255af3ca374d6c89c0b3b19fc9504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09e7c84ec2495f94e5317f3923c7bdf') in 0.060093 seconds
-  Import took 0.062505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.146144 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/023 Socks.fbx
-  artifactKey: Guid(d73a42e44e97b4e51b2c7810a811f2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/023 Socks.fbx using Guid(d73a42e44e97b4e51b2c7810a811f2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50436b7bd69ed4eea48023912a2d361') in 0.036546 seconds
-  Import took 0.040046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.522202 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/024 Shoes.fbx
-  artifactKey: Guid(7d20319bcdd2e436198d8f31615f72c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/024 Shoes.fbx using Guid(7d20319bcdd2e436198d8f31615f72c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce809579b1eaf6b519893d8c726b390c') in 0.044989 seconds
-  Import took 0.048763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021280 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/024 Shoes.fbx
-  artifactKey: Guid(7d20319bcdd2e436198d8f31615f72c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/024 Shoes.fbx using Guid(7d20319bcdd2e436198d8f31615f72c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce809579b1eaf6b519893d8c726b390c') in 0.049144 seconds
-  Import took 0.052497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.861031 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/025 Shoes.fbx
-  artifactKey: Guid(738fc581bced64b6f9128982f34828cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/025 Shoes.fbx using Guid(738fc581bced64b6f9128982f34828cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2cfaa41123528ba416e3f85ac37b15a') in 0.041117 seconds
-  Import took 0.044463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.730950 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/026 Hand_gloves.fbx
-  artifactKey: Guid(ccc9e696b9ec04dfd9e1acefc38adf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/026 Hand_gloves.fbx using Guid(ccc9e696b9ec04dfd9e1acefc38adf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac48bd4b4d518952920820e21db9a50e') in 0.050222 seconds
-  Import took 0.053507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012143 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/026 Hand_gloves.fbx
-  artifactKey: Guid(ccc9e696b9ec04dfd9e1acefc38adf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/026 Hand_gloves.fbx using Guid(ccc9e696b9ec04dfd9e1acefc38adf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac48bd4b4d518952920820e21db9a50e') in 0.039460 seconds
-  Import took 0.042925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.221015 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/027 Xmas_bell.fbx
-  artifactKey: Guid(3b9e950227c784a3a8c3b9a25f2fd19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/027 Xmas_bell.fbx using Guid(3b9e950227c784a3a8c3b9a25f2fd19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652dd0f3837631499df92a163a6a9e47') in 0.048217 seconds
-  Import took 0.051806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019364 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/027 Xmas_bell.fbx
-  artifactKey: Guid(3b9e950227c784a3a8c3b9a25f2fd19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/027 Xmas_bell.fbx using Guid(3b9e950227c784a3a8c3b9a25f2fd19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652dd0f3837631499df92a163a6a9e47') in 0.039487 seconds
-  Import took 0.042854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.122374 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/028 Santa_het.fbx
-  artifactKey: Guid(1c66abe1d2910408eb7771753d324605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/028 Santa_het.fbx using Guid(1c66abe1d2910408eb7771753d324605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dc47a045ad844f3701be72bbde2deb') in 0.050198 seconds
-  Import took 0.053449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.140344 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/029 Garland.fbx
-  artifactKey: Guid(41c17262155a04f4ba21794cf6286caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/029 Garland.fbx using Guid(41c17262155a04f4ba21794cf6286caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e747cf4c87b5968f2dfce6d27da7ff') in 0.073048 seconds
-  Import took 0.076818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023683 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/029 Garland.fbx
-  artifactKey: Guid(41c17262155a04f4ba21794cf6286caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/029 Garland.fbx using Guid(41c17262155a04f4ba21794cf6286caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e747cf4c87b5968f2dfce6d27da7ff') in 0.051653 seconds
-  Import took 0.055136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.947916 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/030 Xmas_Crackers.fbx
-  artifactKey: Guid(093ef0d0d4c8f402dad5c5051425cbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/030 Xmas_Crackers.fbx using Guid(093ef0d0d4c8f402dad5c5051425cbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513e2adb044d21b780153d9a67103150') in 0.051226 seconds
-  Import took 0.054505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.544764 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/031 Xmas_Crackers.fbx
-  artifactKey: Guid(acb83af9195d7416faf206710fdc327e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/031 Xmas_Crackers.fbx using Guid(acb83af9195d7416faf206710fdc327e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449f932df407aa478f02e47172f69e72') in 0.041414 seconds
-  Import took 0.044588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.559316 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/032 Cake.fbx
-  artifactKey: Guid(7e392ccc39de7407e9b24d65f28a9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/032 Cake.fbx using Guid(7e392ccc39de7407e9b24d65f28a9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf427916ef2add48136d920fd776b6ec') in 0.041348 seconds
-  Import took 0.043722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021052 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/032 Cake.fbx
-  artifactKey: Guid(7e392ccc39de7407e9b24d65f28a9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/032 Cake.fbx using Guid(7e392ccc39de7407e9b24d65f28a9e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf427916ef2add48136d920fd776b6ec') in 0.036071 seconds
-  Import took 0.038463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.150652 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/033 Xmas_candy_bag.fbx
-  artifactKey: Guid(aa4d77d0b5dbf4040b8497b884099cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/033 Xmas_candy_bag.fbx using Guid(aa4d77d0b5dbf4040b8497b884099cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522cae16a0367cdb52f2a61549f37a9c') in 0.033640 seconds
-  Import took 0.037171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031670 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/033 Xmas_candy_bag.fbx
-  artifactKey: Guid(aa4d77d0b5dbf4040b8497b884099cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/033 Xmas_candy_bag.fbx using Guid(aa4d77d0b5dbf4040b8497b884099cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522cae16a0367cdb52f2a61549f37a9c') in 0.035168 seconds
-  Import took 0.038331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.771749 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/034 Snow_man.fbx
-  artifactKey: Guid(af7a64c1306414117905669e3806f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/034 Snow_man.fbx using Guid(af7a64c1306414117905669e3806f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c941da5ece7cdf64242e0ed0561090') in 0.048444 seconds
-  Import took 0.051724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012736 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/034 Snow_man.fbx
-  artifactKey: Guid(af7a64c1306414117905669e3806f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/034 Snow_man.fbx using Guid(af7a64c1306414117905669e3806f58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c941da5ece7cdf64242e0ed0561090') in 0.052341 seconds
-  Import took 0.055475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.946070 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/035 Xmas_toy.fbx
-  artifactKey: Guid(c6d100024b23c47af86245c9c87482e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/035 Xmas_toy.fbx using Guid(c6d100024b23c47af86245c9c87482e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b497804043cbe32358db3771e27c368') in 0.048498 seconds
-  Import took 0.051949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.885715 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/036 Xmas_Tree.fbx
-  artifactKey: Guid(11f01bd0e20524ec0b9c86dab67c6d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/036 Xmas_Tree.fbx using Guid(11f01bd0e20524ec0b9c86dab67c6d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bcd6286278180cff163d5c48d7c018') in 0.057531 seconds
-  Import took 0.060919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003246 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/036 Xmas_Tree.fbx
-  artifactKey: Guid(11f01bd0e20524ec0b9c86dab67c6d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/036 Xmas_Tree.fbx using Guid(11f01bd0e20524ec0b9c86dab67c6d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bcd6286278180cff163d5c48d7c018') in 0.053255 seconds
-  Import took 0.056196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.300778 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/037 Christmas_Socks.fbx
-  artifactKey: Guid(6c49b1040a9cf43899f8f6dcfb89218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/037 Christmas_Socks.fbx using Guid(6c49b1040a9cf43899f8f6dcfb89218d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0254147caf6b0cf231517fd988a6fbc') in 0.037259 seconds
-  Import took 0.040747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.341783 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/038 Christmas_Socks.fbx
-  artifactKey: Guid(482eb4f61c7d442949a33189c9b98b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/038 Christmas_Socks.fbx using Guid(482eb4f61c7d442949a33189c9b98b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96083dd44715cfa78c01d3c62617305a') in 0.033635 seconds
-  Import took 0.037074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.620487 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/039 Christmas_Socks.fbx
-  artifactKey: Guid(77bab10c4bc394ec1b40e41c0b304032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/039 Christmas_Socks.fbx using Guid(77bab10c4bc394ec1b40e41c0b304032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4798fba08e76a42f1747424db1c97e93') in 0.032089 seconds
-  Import took 0.035389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002189 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/039 Christmas_Socks.fbx
-  artifactKey: Guid(77bab10c4bc394ec1b40e41c0b304032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/039 Christmas_Socks.fbx using Guid(77bab10c4bc394ec1b40e41c0b304032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4798fba08e76a42f1747424db1c97e93') in 0.034082 seconds
-  Import took 0.037241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.330336 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/040 Xmas_Bell.fbx
-  artifactKey: Guid(f5147060c1d1549eaa0c8c9c919f29d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/040 Xmas_Bell.fbx using Guid(f5147060c1d1549eaa0c8c9c919f29d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ff0c6940a111bf5eb393999d5a916e') in 0.032875 seconds
-  Import took 0.036182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028726 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/040 Xmas_Bell.fbx
-  artifactKey: Guid(f5147060c1d1549eaa0c8c9c919f29d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/040 Xmas_Bell.fbx using Guid(f5147060c1d1549eaa0c8c9c919f29d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ff0c6940a111bf5eb393999d5a916e') in 0.029236 seconds
-  Import took 0.032579 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.873691 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/041 Xmas_Bell.fbx
-  artifactKey: Guid(abce592dfdafc4e4aa552eea00807000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/041 Xmas_Bell.fbx using Guid(abce592dfdafc4e4aa552eea00807000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7421eec2ed6b6ed3a56453eb4a3534b5') in 0.028121 seconds
-  Import took 0.031501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033478 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/041 Xmas_Bell.fbx
-  artifactKey: Guid(abce592dfdafc4e4aa552eea00807000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/041 Xmas_Bell.fbx using Guid(abce592dfdafc4e4aa552eea00807000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7421eec2ed6b6ed3a56453eb4a3534b5') in 0.027856 seconds
-  Import took 0.031360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.742784 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/042 Candy.fbx
-  artifactKey: Guid(bbb8d9c3f007a403f9f347481eaeb698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/042 Candy.fbx using Guid(bbb8d9c3f007a403f9f347481eaeb698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ce641451515f344b95ec0f6bc0c2a2') in 0.029376 seconds
-  Import took 0.032794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033305 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/042 Candy.fbx
-  artifactKey: Guid(bbb8d9c3f007a403f9f347481eaeb698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/042 Candy.fbx using Guid(bbb8d9c3f007a403f9f347481eaeb698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ce641451515f344b95ec0f6bc0c2a2') in 0.026876 seconds
-  Import took 0.030024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.844136 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/043 Sign Board.fbx
-  artifactKey: Guid(f735180c87904468d9db55967fe698eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/043 Sign Board.fbx using Guid(f735180c87904468d9db55967fe698eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c45b8bd368d54d1deb5c370e4665c9f') in 0.064468 seconds
-  Import took 0.068176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031064 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/043 Sign Board.fbx
-  artifactKey: Guid(f735180c87904468d9db55967fe698eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/043 Sign Board.fbx using Guid(f735180c87904468d9db55967fe698eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c45b8bd368d54d1deb5c370e4665c9f') in 0.060048 seconds
-  Import took 0.063382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.174181 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/044 Xmas_Tree.fbx
-  artifactKey: Guid(5e272de2ceb714f7a871eb7b868ac4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/044 Xmas_Tree.fbx using Guid(5e272de2ceb714f7a871eb7b868ac4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c27aa3d57cccfab1dc2be16ff64e48c') in 0.040634 seconds
-  Import took 0.044263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.020069 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/044 Xmas_Tree.fbx
-  artifactKey: Guid(5e272de2ceb714f7a871eb7b868ac4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/044 Xmas_Tree.fbx using Guid(5e272de2ceb714f7a871eb7b868ac4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c27aa3d57cccfab1dc2be16ff64e48c') in 0.040894 seconds
-  Import took 0.044146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.599260 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/045 Xmas_Tree.fbx
-  artifactKey: Guid(6270e91a63ae8440390b82c0a1dbd4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/045 Xmas_Tree.fbx using Guid(6270e91a63ae8440390b82c0a1dbd4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cb366c4f95c62b9f109f462b177a73') in 0.075405 seconds
-  Import took 0.078906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023667 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/045 Xmas_Tree.fbx
-  artifactKey: Guid(6270e91a63ae8440390b82c0a1dbd4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/045 Xmas_Tree.fbx using Guid(6270e91a63ae8440390b82c0a1dbd4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cb366c4f95c62b9f109f462b177a73') in 0.067565 seconds
-  Import took 0.071736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.101888 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/079 House.fbx
-  artifactKey: Guid(bbae9ca51fb504f0a81b23c3d7d57658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/079 House.fbx using Guid(bbae9ca51fb504f0a81b23c3d7d57658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273771ecafc01dffd188e6a031628ba3') in 0.042230 seconds
-  Import took 0.045633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.533715 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/079 House.fbx
-  artifactKey: Guid(bbae9ca51fb504f0a81b23c3d7d57658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/079 House.fbx using Guid(bbae9ca51fb504f0a81b23c3d7d57658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7750de72f725fe8d39bf08156768ddf') in 0.042238 seconds
-  Import took 0.045910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.496067 seconds.
-  path: Assets/Low Poly Christmas Pack Free/FBX/079 House.fbx
-  artifactKey: Guid(bbae9ca51fb504f0a81b23c3d7d57658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Christmas Pack Free/FBX/079 House.fbx using Guid(bbae9ca51fb504f0a81b23c3d7d57658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0190c18404bbc3e56d161e2ad1ff668d') in 0.046630 seconds
-  Import took 0.050157 seconds .
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.5 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 2.074500 ms (FindLiveObjects: 0.333900 ms CreateObjectMapping: 0.062300 ms MarkObjects: 1.592400 ms  DeleteObjects: 0.084700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(7add7c70d88501d4cb4e8514ec97deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(7add7c70d88501d4cb4e8514ec97deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f1f56b38b2526b1f1e6b8207380202') in 0.029635 seconds
+  Import took 0.032370 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.766 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1259 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.5 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1712.
+Total: 2.023400 ms (FindLiveObjects: 0.191100 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.711700 ms  DeleteObjects: 0.080600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001603 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.5 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1715.
+Total: 2.226100 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.051300 ms MarkObjects: 1.864800 ms  DeleteObjects: 0.058200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001793 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.5 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1718.
+Total: 1.655800 ms (FindLiveObjects: 0.125400 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.440900 ms  DeleteObjects: 0.053800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001326 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.6 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1721.
+Total: 2.706900 ms (FindLiveObjects: 0.487100 ms CreateObjectMapping: 0.046800 ms MarkObjects: 2.097400 ms  DeleteObjects: 0.072700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.6 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1724.
+Total: 1.764600 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.032000 ms MarkObjects: 1.474800 ms  DeleteObjects: 0.058600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.6 MB.
+System memory in use after: 62.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1727.
+Total: 2.159500 ms (FindLiveObjects: 0.181700 ms CreateObjectMapping: 0.034300 ms MarkObjects: 1.884900 ms  DeleteObjects: 0.057500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1420.500468 seconds.
+  path: Assets/EditedandAdditionFBX/santa_rig.prefab
+  artifactKey: Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EditedandAdditionFBX/santa_rig.prefab using Guid(f76fc505d4e72a241a40f9d8c7cbbabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5834fd8919b45e4f9282d31c45147a5') in 0.099562 seconds
+  Import took 0.103599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 662.580444 seconds.
+  path: Assets/Gift.png
+  artifactKey: Guid(86857839feda77f4dbaf4c74f8062349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gift.png using Guid(86857839feda77f4dbaf4c74f8062349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a846cb9af0f54a7dcecae4ef8ebee921') in 0.032596 seconds
+  Import took 0.036201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.942886 seconds.
+  path: Assets/Scripts/GiftUI.cs
+  artifactKey: Guid(bda6a77a203f5a24a9072cecc3722dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GiftUI.cs using Guid(bda6a77a203f5a24a9072cecc3722dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea141d90b4a010e70fc62132c4882c7f') in 0.003867 seconds
+  Import took 0.006189 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1739.
+Total: 2.043800 ms (FindLiveObjects: 0.189300 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.509300 ms  DeleteObjects: 0.305400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1742.
+Total: 2.020200 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.469800 ms  DeleteObjects: 0.332900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000939 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1745.
+Total: 2.206500 ms (FindLiveObjects: 0.187600 ms CreateObjectMapping: 0.052700 ms MarkObjects: 1.598300 ms  DeleteObjects: 0.366700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1748.
+Total: 2.315800 ms (FindLiveObjects: 0.192200 ms CreateObjectMapping: 0.049000 ms MarkObjects: 1.740500 ms  DeleteObjects: 0.333100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001485 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1751.
+Total: 2.047600 ms (FindLiveObjects: 0.185800 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.504800 ms  DeleteObjects: 0.320000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1754.
+Total: 2.067600 ms (FindLiveObjects: 0.198400 ms CreateObjectMapping: 0.033800 ms MarkObjects: 1.501400 ms  DeleteObjects: 0.333100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1757.
+Total: 2.341000 ms (FindLiveObjects: 0.160000 ms CreateObjectMapping: 0.042300 ms MarkObjects: 1.765000 ms  DeleteObjects: 0.372700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1760.
+Total: 2.002600 ms (FindLiveObjects: 0.149400 ms CreateObjectMapping: 0.033400 ms MarkObjects: 1.476800 ms  DeleteObjects: 0.342300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1763.
+Total: 2.007800 ms (FindLiveObjects: 0.201300 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.448300 ms  DeleteObjects: 0.324000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.782 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1766.
+Total: 2.425000 ms (FindLiveObjects: 0.280800 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.716800 ms  DeleteObjects: 0.378900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000863 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1769.
+Total: 2.070300 ms (FindLiveObjects: 0.208900 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.483700 ms  DeleteObjects: 0.338400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1772.
+Total: 2.020500 ms (FindLiveObjects: 0.162600 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.479900 ms  DeleteObjects: 0.336900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1775.
+Total: 2.141000 ms (FindLiveObjects: 0.211700 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.531400 ms  DeleteObjects: 0.361600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1778.
+Total: 2.141400 ms (FindLiveObjects: 0.194800 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.571500 ms  DeleteObjects: 0.332400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001424 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1781.
+Total: 2.078500 ms (FindLiveObjects: 0.174400 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.510900 ms  DeleteObjects: 0.359400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000983 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1784.
+Total: 2.495700 ms (FindLiveObjects: 0.183300 ms CreateObjectMapping: 0.040200 ms MarkObjects: 1.859000 ms  DeleteObjects: 0.412000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000848 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.767 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1787.
+Total: 2.629000 ms (FindLiveObjects: 0.388700 ms CreateObjectMapping: 0.060900 ms MarkObjects: 1.845900 ms  DeleteObjects: 0.332300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1790.
+Total: 2.307900 ms (FindLiveObjects: 0.203900 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.703300 ms  DeleteObjects: 0.359300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000910 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.763 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1793.
+Total: 2.094400 ms (FindLiveObjects: 0.199400 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.490800 ms  DeleteObjects: 0.358900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1796.
+Total: 2.085700 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.532000 ms  DeleteObjects: 0.331400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1799.
+Total: 2.171500 ms (FindLiveObjects: 0.235100 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.564800 ms  DeleteObjects: 0.333200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1802.
+Total: 2.123400 ms (FindLiveObjects: 0.230600 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.502000 ms  DeleteObjects: 0.344300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

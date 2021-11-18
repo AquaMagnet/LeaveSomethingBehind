@@ -10,13 +10,13 @@ public class PlayerController : MonoBehaviour
     public float turnSmoothTime = 0.1f;
     private float turnSmoothVelocity;
 
-    bool isGrounded = false;
-    public Transform groundCheck;
-    public float groundDistance = 0.4f;
-    public LayerMask groundMask;
-    public float jumpHeight = 200f;
-    bool isJumping;
-    public float gravity = 18f;
+    //bool isGrounded = false;
+    //public Transform groundCheck;
+    //public float groundDistance = 0.4f;
+    //public LayerMask groundMask;
+    //public float jumpHeight = 200f;
+    //bool isJumping;
+   // public float gravity = 18f;
 
     Rigidbody rb;
 
@@ -42,17 +42,16 @@ public class PlayerController : MonoBehaviour
             playerInput = false;
         }
 
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+       // isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-        if (isGrounded && Input.GetAxisRaw("Jump") > 0f)
-        {
-            isJumping = true;
-        }
-        else
-        {
-            isJumping = false;
-        }
-        Debug.Log(isGrounded);
+       // if (isGrounded && Input.GetAxisRaw("Jump") > 0f)
+       // {
+       //     isJumping = true;
+       // }
+       // else
+       // {
+       //     isJumping = false;
+       // }
     }
 
     private void FixedUpdate()
@@ -65,14 +64,14 @@ public class PlayerController : MonoBehaviour
 
             rb.MovePosition(transform.position + direction * speed * Time.deltaTime);
         }
-        if (isJumping)
-        {
-            //rb.AddForce(Vector3.up * gravity, ForceMode.VelocityChange);
-
-            Vector3 velocity = rb.velocity;
-            velocity.y = jumpHeight;
-            rb.velocity = velocity;
-        }
+       // if (isJumping)
+       // {
+       //     //rb.AddForce(Vector3.up * gravity, ForceMode.VelocityChange);
+       //
+       //     Vector3 velocity = rb.velocity;
+       //     velocity.y = jumpHeight;
+       //     rb.velocity = velocity;
+       // }
 
 
     }
