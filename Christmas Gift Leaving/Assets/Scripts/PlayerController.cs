@@ -19,11 +19,13 @@ public class PlayerController : MonoBehaviour
    // public float gravity = 18f;
 
     Rigidbody rb;
+    Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -36,10 +38,12 @@ public class PlayerController : MonoBehaviour
         if (horizontal != 0f || vertical != 0f)
         {
             playerInput = true;
+            WalkAnimation();
         }
         else
         {
             playerInput = false;
+            IdleAnimation();
         }
 
        // isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
@@ -63,6 +67,7 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
             rb.MovePosition(transform.position + direction * speed * Time.deltaTime);
+
         }
        // if (isJumping)
        // {
@@ -72,7 +77,15 @@ public class PlayerController : MonoBehaviour
        //     velocity.y = jumpHeight;
        //     rb.velocity = velocity;
        // }
+    }
 
+    private void WalkAnimation()
+    {
+        anim.SetBool("walking", true);
+    }
 
+    private void IdleAnimation()
+    {
+        anim.SetBool("walking", false);
     }
 }

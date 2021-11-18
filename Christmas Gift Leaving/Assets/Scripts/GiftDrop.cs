@@ -38,7 +38,13 @@ public class GiftDrop : MonoBehaviour
             _getGift = false;
             other.GetComponentInChildren<GiftEvent>().ProcessGift();
             GiftDestroy(other);
+            CarryAnimStop(other);
         }
+    }
+
+    private static void CarryAnimStop(Collider other)
+    {
+        other.GetComponent<Animator>().SetBool("carrying", false);
     }
 
     private void GiftDestroy(Collider other)

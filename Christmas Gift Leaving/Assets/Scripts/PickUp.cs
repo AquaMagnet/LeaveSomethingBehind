@@ -47,7 +47,14 @@ public class PickUp : MonoBehaviour
                 playerPickUp = false;
                 Destroy(this.GetComponent<BoxCollider>());
                 Destroy(this.GetComponent<SphereCollider>());
+                CarryAnimStart(other);
             }
+    }
+
+    private static void CarryAnimStart(Collider other)
+    {
+        other.GetComponent<Animator>().SetBool("carrying", true);
+        other.GetComponent<Animator>().SetBool("walking", false);
     }
 
     public bool PlayerHasGift()

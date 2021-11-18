@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165593914398736737}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8542525166609484565}
@@ -56,7 +56,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536937934202140780}
-  m_LocalRotation: {x: 7.81597e-14, y: 0.00000013311835, z: -5.35344e-14, w: 1}
+  m_LocalRotation: {x: 7.8159694e-14, y: 0.00000013311835, z: -5.35344e-14, w: 1}
   m_LocalPosition: {x: 0.2, y: -161.9, z: 0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -695,6 +695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3866217266418811793}
+  - component: {fileID: 303536540}
   m_Layer: 0
   m_Name: ItemPickUp
   m_TagString: Untagged
@@ -710,12 +711,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6310487852392786985}
   m_LocalRotation: {x: -0.00000008146034, y: 0.00000004371139, z: -3.621977e-15, w: 1}
-  m_LocalPosition: {x: 15, y: 152, z: 83}
+  m_LocalPosition: {x: 0, y: 152, z: 83}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 8012947409428634313}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &303536540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6310487852392786985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36771fcd02011ab40813507aaecb0975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberGiftLeft: 2
 --- !u!1 &6516650714208296907
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,7 +834,7 @@ GameObject:
   - component: {fileID: 7546076171180728677}
   - component: {fileID: 7546076171180728676}
   - component: {fileID: 7546076171180728679}
-  - component: {fileID: 1970055713}
+  - component: {fileID: 1970055710}
   m_Layer: 0
   m_Name: santa_rig
   m_TagString: Player
@@ -901,25 +915,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6.5
   turnSmoothTime: 0.1
-  groundCheck: {fileID: 5562283113763048185}
-  groundDistance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 64
-  jumpHeight: 10
-  gravity: 1
---- !u!114 &1970055713
-MonoBehaviour:
+--- !u!95 &1970055710
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7239648115183124595}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36771fcd02011ab40813507aaecb0975, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1d841dc9ebb236344b8f40a5f7118183, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8304507060212174264
 GameObject:
   m_ObjectHideFlags: 0
