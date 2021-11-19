@@ -20,12 +20,14 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody rb;
     Animator anim;
+    AudioSource sfx;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+        sfx = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -39,11 +41,13 @@ public class PlayerController : MonoBehaviour
         {
             playerInput = true;
             WalkAnimation();
+            
         }
         else
         {
             playerInput = false;
             IdleAnimation();
+            
         }
 
        // isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
@@ -67,7 +71,7 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
             rb.MovePosition(transform.position + direction * speed * Time.deltaTime);
-
+            
         }
        // if (isJumping)
        // {
@@ -82,10 +86,22 @@ public class PlayerController : MonoBehaviour
     private void WalkAnimation()
     {
         anim.SetBool("walking", true);
+        
     }
 
     private void IdleAnimation()
     {
         anim.SetBool("walking", false);
+        sfx.Stop();
+    }
+
+    private void PlaySnowSound()
+    {
+        sfx.PlayOneShot(sfx.clip, 0.4f);
+    }
+
+    private void PlayGiftPickUp()
+    {
+        sfx.PlayOneShot(sfx.clip, 0.4f);
     }
 }

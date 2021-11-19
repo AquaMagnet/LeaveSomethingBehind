@@ -6,6 +6,8 @@ public class GiftDrop : MonoBehaviour
 {
     private bool _playerInArea = false;
     private bool _getGift = false;
+    
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && _playerInArea)
@@ -36,9 +38,11 @@ public class GiftDrop : MonoBehaviour
         if(other.GetComponentInChildren<PickUp>().PlayerHasGift() && _getGift)
         {
             _getGift = false;
+            
             other.GetComponentInChildren<GiftEvent>().ProcessGift();
             GiftDestroy(other);
             CarryAnimStop(other);
+            
         }
     }
 

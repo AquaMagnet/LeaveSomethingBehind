@@ -7,7 +7,12 @@ public class PickUp : MonoBehaviour
     bool playerPickUp = false;
     bool playerHasGift = false;
     bool inArea = false;
+    AudioSource giftPickUp;
 
+    private void Awake()
+    {
+        giftPickUp = GetComponent<AudioSource>();
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && inArea)
@@ -41,6 +46,7 @@ public class PickUp : MonoBehaviour
         if (other.GetComponentInChildren<GiftEvent>().PlayerCarriesGift() == false)
             if (other.tag == "Player" && playerPickUp)
             {
+                giftPickUp.PlayOneShot(giftPickUp.clip, 0.4f);
                 this.transform.position = GameObject.Find("ItemPickUp").transform.position;
                 this.transform.parent = GameObject.Find("ItemPickUp").transform;
                 playerHasGift = true;
