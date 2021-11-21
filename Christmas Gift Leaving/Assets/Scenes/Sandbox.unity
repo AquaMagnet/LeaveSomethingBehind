@@ -32261,6 +32261,14 @@ PrefabInstance:
       propertyPath: numberGiftLeft
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 303536540, guid: f76fc505d4e72a241a40f9d8c7cbbabd, type: 3}
+      propertyPath: sounds.Array.data[1].volume
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 303536540, guid: f76fc505d4e72a241a40f9d8c7cbbabd, type: 3}
+      propertyPath: sounds.Array.data[2].volume
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7239648115183124595, guid: f76fc505d4e72a241a40f9d8c7cbbabd, type: 3}
       propertyPath: m_Name
       value: santa_rig
@@ -34217,11 +34225,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 46246658747031021, guid: 446abd4ecb9aecb458839559b391f321, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000160998
+      value: -0.000000016099797
       objectReference: {fileID: 0}
     - target: {fileID: 46246658747031021, guid: 446abd4ecb9aecb458839559b391f321, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00000001052952
+      value: 0.0000000105295195
       objectReference: {fileID: 0}
     - target: {fileID: 46246658747031021, guid: 446abd4ecb9aecb458839559b391f321, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -34565,7 +34573,7 @@ PrefabInstance:
       objectReference: {fileID: 137613538}
     - target: {fileID: 3967968174722680675, guid: 25a4e850396cf2049803d0ff27e3af0d, type: 3}
       propertyPath: minutesLeft
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3967968174722680675, guid: 25a4e850396cf2049803d0ff27e3af0d, type: 3}
       propertyPath: secondsLeft
@@ -34711,11 +34719,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4542915166741984942, guid: a73a0a8befc17da46995debdf8fabe15, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000160998
+      value: -0.000000016099797
       objectReference: {fileID: 0}
     - target: {fileID: 4542915166741984942, guid: a73a0a8befc17da46995debdf8fabe15, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00000001052952
+      value: 0.0000000105295195
       objectReference: {fileID: 0}
     - target: {fileID: 4542915166741984942, guid: a73a0a8befc17da46995debdf8fabe15, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -35127,7 +35135,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameGeneral
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8730559178670053712, guid: f14156c8b866bfc4eadc6dc70fafa6d0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f14156c8b866bfc4eadc6dc70fafa6d0, type: 3}
 --- !u!1001 &8999843274399893522
 PrefabInstance:
