@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 8999843273791122787}
   - component: {fileID: 7144938877951142723}
   m_Layer: 0
-  m_Name: 079 House (10)
+  m_Name: 079 House (10) 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,7 +137,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: bbae9ca51fb504f0a81b23c3d7d57658, type: 3}
-  - {fileID: 2100002, guid: bbae9ca51fb504f0a81b23c3d7d57658, type: 3}
+  - {fileID: 2100000, guid: a4e7f1860019b944faf84dffbf2d4e66, type: 2}
   - {fileID: 2100004, guid: bbae9ca51fb504f0a81b23c3d7d57658, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0

@@ -28,7 +28,6 @@ public class GiftUI : MonoBehaviour
     public void SetInitialGift(int currentGift)
     {
         currentGiftNum = currentGift;
-        Debug.Log(currentGiftNum);
         giftText.text = currentGiftNum.ToString() + " / " + currentGiftNum;
 
        
