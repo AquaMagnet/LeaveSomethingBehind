@@ -34681,6 +34681,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4542915166541019445, guid: a73a0a8befc17da46995debdf8fabe15, type: 3}
+      propertyPath: m_XDamping
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542915166541019445, guid: a73a0a8befc17da46995debdf8fabe15, type: 3}
+      propertyPath: m_YDamping
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542915166541019445, guid: a73a0a8befc17da46995debdf8fabe15, type: 3}
+      propertyPath: m_ZDamping
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542915166541019446, guid: a73a0a8befc17da46995debdf8fabe15, type: 3}
+      propertyPath: m_VerticalDamping
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542915166541019446, guid: a73a0a8befc17da46995debdf8fabe15, type: 3}
+      propertyPath: m_HorizontalDamping
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4542915166741984940, guid: a73a0a8befc17da46995debdf8fabe15, type: 3}
       propertyPath: m_Name
       value: CM vcam1
